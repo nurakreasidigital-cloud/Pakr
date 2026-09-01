@@ -30,6 +30,7 @@ import androidx.core.view.WindowInsetsControllerCompat
 import android.view.GestureDetector
 import android.view.MotionEvent
 import kotlin.math.abs
+import com.onesignal.OneSignal
 
 class MainActivity : AppCompatActivity() {
 
