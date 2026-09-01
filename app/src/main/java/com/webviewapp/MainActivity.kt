@@ -70,6 +70,9 @@ class MainActivity : AppCompatActivity() {
             androidx.appcompat.app.AppCompatDelegate.MODE_NIGHT_NO
         )
         super.onCreate(savedInstanceState)
+            // Inisialisasi OneSignal
+        OneSignal.initWithContext(this)
+        OneSignal.setAppId("01cb3e1a-38ba-4514-8643-8782e78463a1")
         @Suppress("DEPRECATION")
         window.setFlags(
             android.view.WindowManager.LayoutParams.FLAG_FULLSCREEN or
